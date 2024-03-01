@@ -1,0 +1,57 @@
+.company-profile {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.company-profile form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.company-profile input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.company-profile button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.company-profile button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.company-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+   
+    width: 100%;
+  
+    height: auto;
+
+    margin-bottom: 20px;
+ 
+}
